@@ -1,3 +1,47 @@
+header {
+  text-align: center; /* Alinea el contenido al centro */
+}
+
+.logo {
+  max-width: 50%; /* Define el ancho máximo de la imagen */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
 nav {
   display: flex;
+  justify-content: flex-end; /* Alinea los elementos a la derecha */
+}
+
+nav div {
+  padding: 10px 20px; /* Añade un espacio alrededor del texto */
+  border-radius: 20px; /* Aplica bordes redondeados */
+  background-color: lightgray; /* Color de fondo */
+  margin-left: 10px; /* Añade un espacio entre los elementos */
+}
+
+nav div:hover {
+  background-color: gray; /* Cambia el color de fondo al pasar el cursor */
+}
+
+aside {
+  height: 250px; /* Ocupa el 50% del ancho de la pantalla */
+  background-color: lightgray; /* Solo para visualización */
+}
+
+footer {
+  display: flex;
+  justify-content: space-around; /* Ajusta el espacio entre las columnas */
+}
+
+.column {
+  flex: 1; /* Ajusta el tamaño de las columnas para que sean iguales */
+}
+
+.icons img {
+  width: 15px;
+  height: 15px;
+}
+
+.copy {
+  align-items: flex-end;
 }
