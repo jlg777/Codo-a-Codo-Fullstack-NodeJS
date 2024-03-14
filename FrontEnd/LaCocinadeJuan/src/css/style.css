@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+
+/* Estilos base para la navegación */
+nav ul {
+  list-style: none; /* Elimina los puntos de lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+nav ul li {
+  display: inline-block; /* Muestra los elementos de lista en línea */
+  margin-right: 20px; /* Agrega un espacio entre los elementos de lista */
+}
+
+nav ul li a {
+  text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+  color: black; /* Establece el color del texto de los enlaces */
+  padding: 10px 15px; /* Agrega relleno alrededor del texto de los enlaces */
+  border-radius: 5px; /* Agrega esquinas redondeadas a los enlaces */
+}
+
+/* Efecto hover */
+nav ul li a:hover {
+  background-color: lightgray; /* Cambia el color de fondo cuando el cursor pasa sobre los enlaces */
+}
+
+/* Estilos para el footer */
+footer {
+  padding: 20px; /* Espaciado interno del footer */
+  text-align: center; /* Alineación del texto en el centro */
+}
+
+/* Estilos para la navegación en el footer */
+footer ul {
+  list-style: none; /* Elimina los puntos de lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+footer ul li {
+  display: inline-block; /* Muestra los elementos de lista en línea */
+  margin-right: 10px; /* Agrega un espacio entre los elementos de lista */
+}
+
+footer ul li a {
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+}
+
+footer ul li a:visited {
+  color: inherit; /* Establece el color del enlace visitado igual al color de texto heredado */
+}
+
+.icons img {
+  width: 15px;
+  height: 15px;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link
+      rel="icon"
+      href="./developer_software_icon_251042.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <form>
+      <label for="name">Ingrese su nombre</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        size="15"
+        placeholder="Nombre"
+      /><!--El size se debe manejar del css-->
+
+      <fieldset>
+        datos
+        <label for="email">Ingrese su email</label>
+        <input type="email" name="email" id="email" placeholder="Email" />
+
+        <label for="color">Ingrese un color</label>
+        <input type="color" name="color" id="color" placeholder="color" />
+      </fieldset>
+      <fieldset>
+        <legend>selecciones</legend>
+        <label for="checkbox">checkbox</label>
+        <input type="checkbox" name="checkbox" id="checkbox" value="1" />
+        <input type="checkbox" name="checkbox" id="checkbox" value="2" />
+        <input type="checkbox" name="checkbox" id="checkbox" value="3" />
+        <input type="checkbox" name="checkbox" id="checkbox" value="4" />
+      </fieldset>
+      <label for="date">date</label>
+      <input type="date" name="date" id="date" />
+
+      <label for="file">file</label>
+      <input type="file" name="file" id="file" />
+
+      <label for="hidden">hidden</label>
+      <input type="hidden" name="hidden" id="hidden" />
+
+      <label for="number">number</label>
+      <input type="number" name="number" id="number" />
+
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" />
+
+      <label for="url">url</label>
+      <input type="url" name="url" id="url" />
+
+      <label for="image">image</label>
+      <input
+        type="image"
+        name="image"
+        id="image"
+        src="./developer_software_icon_251042.ico"
+      />
+
+      <label for="tel">tel</label>
+      <input type="tel" name="tel" id="tel" />
+
+      <label for="button">button</label>
+      <input type="button" name="button" id="button" />
+
+      <label for="radio">radio</label>
+      <input type="radio" name="radio" id="radio" value="1" />
+      <input type="radio" name="radio" id="radio" value="2" />
+      <input type="radio" name="radio" id="radio" value="3" />
+      <input type="radio" name="radio" id="radio" value="4" />2
+      <label for="week">week</label>
+      <input type="week" name="week" id="week" />
+
+      <label for="datetime">datetime</label>
+      <input type="datetime" name="datetime" id="datetime" />
+
+      <label for="datetime-local">datetime-local</label>
+      <input type="datetime-local" name="datetime-local" id="datetime-local" />
+
+      <label for=""></label>
+      <input type="" name="" id="" />
+
+      <label for="month">month</label>
+      <input type="month" name="month" id="month" />
+
+      <label for="range">range</label>
+      <input type="range" name="range" id="range" />
+
+      <label for="time">time</label>
+      <input type="time" name="time" id="time" />
+
+      <label for="reset">reset</label>
+      <input type="reset" name="reset" id="reset" />
+
+      <label>Etiqueta textarea</label>
+      <textarea rows="10" cols="40">Escribir comentario</textarea>
+
+      <label>Etiqueta selec</label>
+      <select multiple>
+        <option>MAÑANA</option>
+        <option>TARDE</option>
+        <option>NOCHE</option>
+      </select>
+
+      <input
+        type="submit"
+        value="Enviar datos"
+      /><!--la diferencia principal es que "value" establece un valor predeterminado que puede ser enviado con el formulario, mientras que "placeholder" proporciona una pista o ejemplo visual para el usuario antes de que ingresen cualquier dato.-->
+
+      <button type="submit"></button>
+      <!--Sintaxis:
+
+<input type="submit">: Este es un elemento de entrada de formulario. Se utiliza dentro de un formulario HTML y se define mediante el atributo type con el valor "submit".
+
+<button>: Este es un elemento de botón en HTML. Puede contener texto, imágenes u otros elementos HTML dentro de él.
+
+Personalización:
+
+<input type="submit">: Tiene menos flexibilidad en términos de personalización visual. Puedes aplicar estilos CSS, pero es más limitado en comparación con los botones <button>.
+
+<button>: Es más flexible en términos de personalización visual. Puedes agregar clases CSS, estilos en línea, imágenes o incluso otros elementos HTML dentro del botón para crear botones más complejos y personalizados.
+
+Compatibilidad:
+
+<input type="submit">: Es compatible con todos los navegadores y versiones de HTML.
+
+<button>: Aunque es ampliamente compatible, en el pasado ha habido problemas de compatibilidad con versiones antiguas de Internet Explorer.
+
+Accesibilidad:
+
+<input type="submit">: Algunos lectores de pantalla pueden tratar los botones de entrada <input type="submit"> de manera ligeramente diferente a los botones <button>, pero en general, ambos son accesibles si se usan correctamente.
+Comportamiento predeterminado:
+
+<input type="submit">: Tiene un comportamiento predeterminado específico dentro de un formulario: envía el formulario cuando se hace clic.
+
+<button>: Puedes especificar el tipo de botón utilizando el atributo type. Por defecto, un botón sin este atributo actuará como un botón de envío. Sin embargo, puedes cambiar su comportamiento usando type="button" o type="reset".
+
+En resumen, <input type="submit"> es más simple y está diseñado específicamente para enviar formularios, mientras que <button> ofrece más flexibilidad y opciones de personalización. La elección entre los dos depende de tus necesidades específicas de diseño y funcionalidad.-->
+    </form>
+  </body>
+</html>

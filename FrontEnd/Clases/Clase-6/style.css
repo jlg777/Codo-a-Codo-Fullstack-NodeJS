@@ -1,0 +1,14 @@
+form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px; /* Espacio entre cada input */
+}
+
+* {
+  background-color: black;
+  color: white;
+}

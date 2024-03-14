@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./src/img/cocina.ico" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>Cocinando con Jorgito</title>
   </head>
   <body>
@@ -11,9 +12,12 @@
       <h1>Cocinando con Jorgito</h1>
     </header>
     <nav>
-      <div name="Home">Home</div>
-      <div>Acerca de</div>
-      <div>Contacto</div>
+      <ul>
+        <li><a href="#" name="home">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="./src/pages/contacto.html">Contacto</a></li>
+      </ul>
     </nav>
     <aside>
       <h2>Pollo al disco</h2>
@@ -219,16 +223,32 @@
     </sidebar>
     <hr />
     <footer>
+      <div>
+        <p>NAVEGACION</p>
+        <ul>
+          <li><a href="#" name="home">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="./src/pages/contacto.html">Contacto</a></li>
+        </ul>
+      </div>
       <div class="container">
         <p>&copy; 2024 jlg777. Todos los derechos reservados.</p>
-        <a href="index.html">Home</a>
         <a href="mailto:proyectojlg777@gmail.com?subject=Contacto">Contacto</a>
         <a
           style="align-items: center"
-          href="./src/Download/Pollo_al_disco.pdf"
+          href="./src/download/Pollo_al_disco.pdf"
           download="Pollo_al_disco.pdf"
           >Descargar receta</a
         >
+      </div>
+      <div class="column icons">
+        <p>Siguenos</p>
+        <img src="./src/img/Socials/facebook.png" alt="" />
+        <img src="./src/img/Socials/instagram.png" alt="" />
+        <img src="./src/img/Socials/tik-tok.png" alt="" />
+        <img src="./src/img/Socials/x.png" alt="" />
+        <img src="./src/img/Socials/youtube.png" alt="" />
       </div>
     </footer>
   </body>
