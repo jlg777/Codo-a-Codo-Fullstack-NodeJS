@@ -1,0 +1,28 @@
+.Contenedor1 {
+  width: auto;
+  height: 20px;
+  border: solid;
+  max-width: 100px;
+}
+
+.cont1 {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  padding: 100px;
+  background-color: blue;
+  box-sizing: content-box;
+  z-index: 100;
+}
+.cont2 {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  padding: 100px;
+  background-color: red;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 100px;
+  z-index: 1;
+  opacity: 90%;
+}
